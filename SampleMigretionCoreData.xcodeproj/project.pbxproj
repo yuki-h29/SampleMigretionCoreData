@@ -16,6 +16,7 @@
 		232C997D2ACDAA650002CB31 /* SampleMigretionCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C997C2ACDAA650002CB31 /* SampleMigretionCoreDataTests.swift */; };
 		232C99872ACDAA650002CB31 /* SampleMigretionCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C99862ACDAA650002CB31 /* SampleMigretionCoreDataUITests.swift */; };
 		232C99892ACDAA650002CB31 /* SampleMigretionCoreDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C99882ACDAA650002CB31 /* SampleMigretionCoreDataUITestsLaunchTests.swift */; };
+		232C999C2ACDB5220002CB31 /* testA.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 232C999B2ACDB5220002CB31 /* testA.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,9 @@
 		232C99822ACDAA650002CB31 /* SampleMigretionCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleMigretionCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		232C99862ACDAA650002CB31 /* SampleMigretionCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMigretionCoreDataUITests.swift; sourceTree = "<group>"; };
 		232C99882ACDAA650002CB31 /* SampleMigretionCoreDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMigretionCoreDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		232C99952ACDB01C0002CB31 /* SampleMigretionCoreData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleMigretionCoreData2.xcdatamodel; sourceTree = "<group>"; };
+		232C999A2ACDB4830002CB31 /* SampleMigretionCoreData3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleMigretionCoreData3.xcdatamodel; sourceTree = "<group>"; };
+		232C999B2ACDB5220002CB31 /* testA.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = testA.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				232C996A2ACDAA650002CB31 /* Assets.xcassets */,
 				232C996F2ACDAA650002CB31 /* Persistence.swift */,
 				232C99712ACDAA650002CB31 /* SampleMigretionCoreData.xcdatamodeld */,
+				232C999B2ACDB5220002CB31 /* testA.xcmappingmodel */,
 				232C996C2ACDAA650002CB31 /* Preview Content */,
 			);
 			path = SampleMigretionCoreData;
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232C99702ACDAA650002CB31 /* Persistence.swift in Sources */,
+				232C999C2ACDB5220002CB31 /* testA.xcmappingmodel in Sources */,
 				232C99692ACDAA630002CB31 /* ContentView.swift in Sources */,
 				232C99672ACDAA630002CB31 /* SampleMigretionCoreDataApp.swift in Sources */,
 				232C99732ACDAA650002CB31 /* SampleMigretionCoreData.xcdatamodeld in Sources */,
@@ -596,9 +602,11 @@
 		232C99712ACDAA650002CB31 /* SampleMigretionCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				232C999A2ACDB4830002CB31 /* SampleMigretionCoreData3.xcdatamodel */,
+				232C99952ACDB01C0002CB31 /* SampleMigretionCoreData2.xcdatamodel */,
 				232C99722ACDAA650002CB31 /* SampleMigretionCoreData.xcdatamodel */,
 			);
-			currentVersion = 232C99722ACDAA650002CB31 /* SampleMigretionCoreData.xcdatamodel */;
+			currentVersion = 232C999A2ACDB4830002CB31 /* SampleMigretionCoreData3.xcdatamodel */;
 			path = SampleMigretionCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
